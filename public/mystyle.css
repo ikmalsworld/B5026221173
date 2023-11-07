@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+selector:pseudo-class {
+    property: value;
+  }
+
+.hargafinal {
+    font-weight: bold;
+    color:bisque
+}
+
+a:link {
+    border-radius: 25px;
+    border: 5px solid white; /*tebal jenis warna*/
+    padding: 10px; /* jarak antara isi dgn border*/
+    width: 410px;
+    text-decoration: none;
+    color: aqua;
+}
+
+a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+}
+
+.profilepicture {
+    border-radius: 50%;
+}
+
+.picframe{
+    border-radius: 25px;
+    border: 5px solid white; /*tebal jenis warna*/
+    padding: 10px; /* jarak antara isi dgn border*/
+    width: 410px; /*jika tdk diisi akan penuh 1 halaman */
+}
+

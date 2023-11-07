@@ -1,0 +1,127 @@
+body {
+    background-color: 888888;
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+selector:pseudo-class {
+    property: value;
+  }
+
+p {
+    font-weight: bolder;
+    font-size: 21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.Ikmal-dots {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* The Arial font appears to have "square" dots */
+    font-weight: bold;
+    font-size: 18px; /* The size of the dots */
+    line-height: 0; /* helps vertically position the dots */
+    margin-top: -4.5px; /* helps "raise" the dots higher */
+    margin-left: -7.5px;
+    letter-spacing: -2px; /* "squeezes" the dots closer together */
+}
+
+.Ikmal-dots1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* The Arial font appears to have "square" dots */
+    font-weight: bold;
+    font-size: 18px; /* The size of the dots */
+    line-height: 0; /* helps vertically position the dots */
+    margin-top: -14px; /* helps "raise" the dots higher */
+    margin-left: -5px;
+    letter-spacing: -2px; /* "squeezes" the dots closer together */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 12px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.Ikmal-dots1:hover {
+    background-color: #757574;
+}
+
+.Ikmal-dotspos1 {
+    margin-top: 6px;
+    margin-left: -1px;
+}
+
+
+.Ikmal-NRP5026221173 {
+    position: fixed;
+    top: 27px;
+    right: 558px;
+    height: 20px;
+    width: 20px;
+    background-color: F0F0F0;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    padding: 20px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 8px;
+  }
+
+.Ikmal-NRP5026221173:hover {
+    background-color: ededed;
+    cursor:pointer;
+}
+
+.Ikmal-titikTiga {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.Ikmal-profpic {
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.Ikmal-tengah {
+    text-align: center;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.Ikmal-button {
+    background-color: white;
+    border: solid transparent;
+    color: A9A9A9;
+    padding: 20px 22px;
+    padding-left: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-top: 6px;
+    margin-bottom: 11px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.Ikmal-button:hover {
+    background-color: 888888;
+    border: 2.5px solid white;
+    color: white;
+}
+
+.Ikmal-button1 {
+    width: 36.5%;
+    height: 60px
+}
