@@ -65,5 +65,29 @@ Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
-
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+//latihan nilai kuliah
+Route::get('/nilaikuliah', 'App\Http\Controllers\NilaiKuliahController@index');
+Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\NilaiKuliahController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
+
+
+
+//crud tugas pra eas harddisk
+Route::get('/harddisk','App\Http\Controllers\HarddiskController@index');
+Route::get('/harddisk/tambah','App\Http\Controllers\HarddiskController@tambah');
+Route::post('/harddisk/store','App\Http\Controllers\HarddiskController@store');
+Route::get('/harddisk/edit/{id}','App\Http\Controllers\HarddiskController@edit');
+Route::post('/harddisk/update','App\Http\Controllers\HarddiskController@update');
+Route::get('/harddisk/hapus/{id}','App\Http\Controllers\HarddiskController@hapus');
+Route::get('/harddisk/cari','App\Http\Controllers\HarddiskController@cari');
+Route::get('/harddisk/view/{id}','App\Http\Controllers\HarddiskController@view');
+
+//crud latihan keranjang belanja
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangBelanjaController@index');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangBelanjaController@beli');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangBelanjaController@store');
+// Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
+Route::post('/keranjangbelanja/update','App\Http\Controllers\KeranjangBelanjaController@update');
+Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangBelanjaController@hapus');
