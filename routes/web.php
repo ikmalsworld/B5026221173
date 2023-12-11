@@ -91,3 +91,14 @@ Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangBelanjaCont
 // Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 Route::post('/keranjangbelanja/update','App\Http\Controllers\KeranjangBelanjaController@update');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangBelanjaController@hapus');
+
+//crud eas kode CC
+Route::get('/cc','App\Http\Controllers\CCController@index');
+Route::get('/cc/tambah','App\Http\Controllers\CCController@tambah');
+Route::post('/cc/store','App\Http\Controllers\CCController@store');
+Route::get('/cc/edit/{id}','App\Http\Controllers\CCController@edit');
+Route::post('/cc/update','App\Http\Controllers\CCController@update');
+Route::get('/cc/hapus/{id}','App\Http\Controllers\CCController@hapus');
+Route::get('/cc/view/{id}','App\Http\Controllers\CCController@view');
+Route::get('/combo','App\Http\Controllers\CCController@index');
+Route::get('/hasilcombo','App\Http\Controllers\CCController@view');
